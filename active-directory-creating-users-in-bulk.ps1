@@ -1,7 +1,7 @@
 # Make sure the path and csv filename is the same like in stated in this script. Also, replace YOURDOMAIN.LOC for yours.
 # And obviously, your csv file should include: DisplayName, FirstName, LastName, OU, AccountName, EmailAddress, Description, Password, Department, Title. 
 # If you may need to add or remove items from the csv, then you need to update this script as well. 
-$ADUsers = Import-Csv -Path "C:\ADUsersToCreatelist.csv"
+$ADUsers = Import-Csv -Path "C:\ADUsersToCreateList.csv"
 foreach ($User in $ADUsers)
 {
     $DisplayName = $User.'DisplayName'
