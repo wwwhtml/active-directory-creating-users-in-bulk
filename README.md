@@ -9,24 +9,22 @@ PowerShell IE as Administrator, to run the script.
 
 
 ## Preparating the CSV File: ##
-This is an example, you may add or remove columns as needed.
-Make sure the CSV has the following column labels:
- 
-DisplayName 
-FirstName 
-LastName 
-OU 
-AccountName 
-EmailAddress 
-Description 
-Password 
-Department 
-Title 
+This is an example, you may add or remove columns as needed in the file (and in the script).
+Make sure the CSV has the following column labels: 
+DisplayName, FirstName, LastName, OU, AccountName, EmailAddress, Description, Password, Department, Title. 
  
 Make sure the name you give to this CSV file it will be reflected in the script. Keep it simple, and without spaces.
 For this example, we will call it: ActiveDirectoryNewAccounts.csv.
 
 ## The script: ##
+In the script state the csv file path, for this example: C:\ActiveDirectoryNewAccounts.csv.
+Replace "YOURDOMAIN.LOC" for the one of your Domain Controller.
+If you removed/added columns in the CSV file, you may need to do those adjustments in the script as well.
+For this example, this CSV file includes: 
+
+DisplayName, FirstName, LastName, OU, AccountName, EmailAddress, Description, Password, Department, Title. 
+
+Grab the script code at:
 https://github.com/wwwhtml/active-directory-creating-users-in-bulk/blob/master/creating-active-directory-domain-accounts-in-bulk.ps1
 
 ## Running the script: ##
