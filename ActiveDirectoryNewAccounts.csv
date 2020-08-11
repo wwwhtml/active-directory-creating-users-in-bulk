@@ -1,0 +1,3 @@
+﻿DisplayName,FirstName,LastName,OU,AccountName,EmailAddress,Description,Password,Department,Title
+"Doe, John",John,Doe,"Users,DC=MyDomain,DC=loc",jdoe@mydomain.com,jdoe@mydomain.com,Blah Blah,LumberSlackness#9LatchUncoverVoucher,Accounting,CFO
+"Lennon, John",John,Lennon,"Users,DC=MyDomain,DC=loc",jlennon@mydomain.com,jlennon@mydomain.com,Blah Blah,StuccoDisallowSnowinessEmber$^Antiquity,Ingeneering,Imaginer
