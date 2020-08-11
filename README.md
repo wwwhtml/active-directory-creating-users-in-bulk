@@ -1,14 +1,14 @@
-# active-directory-creating-users-in-bulk #
+# How to Create Active Directory Domain User Accounts in Bulk #
 This script is to create Active Directory domain user accounts. It requires a csv file.
 
 
-# What Do I needed? ##
+* What Do I needed? *
 The server where accounts will be created. 
 A CSV file that will contain the required information to create the accounts.
 PowerShell IE as Administrator, to run the script.
 
 
-# Preparating the CSV File: #
+* Preparating the CSV File: *
 This is an example, you may add or remove columns as needed.
 Make sure the CSV has the following column labels:
 
@@ -26,11 +26,11 @@ Title
 Make sure the name you give to this CSV file it will be reflected in the script. Keep it simple, and without spaces.
 For this example, we will call it: ActiveDirectoryNewAccounts.csv.
 
-# The script: #
+* The script: *
 Copy this code into a text file. 
 Modify as needed.
 
-# Running the script: #
+* Running the script: *
 Open the PowerShell IE as Administrator.
 Copy code from the modified script that fits your needs.
 Paste the code into the upper part of the window in PowerShell.
