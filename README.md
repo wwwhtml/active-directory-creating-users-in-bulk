@@ -39,4 +39,4 @@ The results, successful or not, should be showing on the window below.
 That's it!
 
 <hr color="red">
-#### Thank you note to whoever I copied the initial script from. It inspired me to modify it, improve it for my understanding, and to share it again. :) #####
+<i>Thank you note to whoever I copied the initial script from. It inspired me to modify it, improve it for my understanding, and to share it again. </i> :)
