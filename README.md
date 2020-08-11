@@ -11,18 +11,18 @@ PowerShell IE as Administrator, to run the script.
 ## Preparating the CSV File: ##
 This is an example, you may add or remove columns as needed.
 Make sure the CSV has the following column labels:
-
-DisplayName
-FirstName
-LastName
-OU
-AccountName
-EmailAddress
-Description
-Password
-Department
-Title
-
+ 
+DisplayName 
+FirstName 
+LastName 
+OU 
+AccountName 
+EmailAddress 
+Description 
+Password 
+Department 
+Title 
+ 
 Make sure the name you give to this CSV file it will be reflected in the script. Keep it simple, and without spaces.
 For this example, we will call it: ActiveDirectoryNewAccounts.csv.
 
