@@ -30,7 +30,9 @@ For this example, we will call it: ActiveDirectoryNewAccounts.csv.
 Copy this code into a text file. 
 Modify as needed.
 
+
 ----------- Script Starts Here ------------
+<code>
 $ADUsers = Import-Csv -Path "C:\ActiveDirectoryNewAccounts.csv."
 foreach ($User in $ADUsers)
 {
@@ -58,7 +60,7 @@ foreach ($User in $ADUsers)
                 New-ADUser -Name $DisplayName -DisplayName $DisplayName -SamAccountName $SAM -Title $Title -UserPrincipalName $UPN -EmailAddress $EmailAddress -GivenName $UserFirstName -Surname $UserLastName -Description $Description -Department $Department -AccountPassword (convertto-securestring $Password -AsPlainText -Force) -Enabled $True -Path $OU -ChangePasswordAtLogon $False -PasswordNeverExpires $True -server YOURDOMAIN.LOC
        }
 }
-
+</code>
 ----------- Script ends Here ------------
 
 ## Running the script: ##
