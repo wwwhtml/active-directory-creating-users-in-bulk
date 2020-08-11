@@ -36,7 +36,10 @@ Paste the code into the upper part of the window in PowerShell.
 Press the run button.
 The results, successful or not, should be showing on the window below.
 
-That's it!
+## Of course! ##
+Suggest to run a test with a couple of users to make sure it runs how you intent it.
+
+Thanks!
 
 <hr color="red">
 <i>Thank you note to whoever I copied the initial script from. It inspired me to modify it, improve it for my understanding, and to share it again. </i> :)
